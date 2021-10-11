@@ -3,3 +3,5 @@
 *.int
 *.lk
 *.zip
+# .gitignore
+node_modules/
