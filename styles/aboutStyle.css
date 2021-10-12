@@ -1,0 +1,215 @@
+@font-face {
+    font-family: cocogooseBold;
+    src: url("../fonts/cocogooseBold.ttf");
+    font-family: cocoGooseLight;
+    src: url("../fonts/cocoGooseLight.ttf");
+}
+  
+.d-flex {
+  display: flex;
+}
+  
+.header {
+  background: #d3d3d3;
+  height: 100px;
+}
+  
+.burger img {
+  /* display: none; */
+  width: 35px;
+  height: auto;
+  margin: 20px;
+  }
+  
+.nav-menu {
+  display: none;
+  width: 100%;
+  height: 100px;
+}
+  
+.top-first {
+  width: 100%;
+  height: 35px;
+  background-color: #272a31;
+  justify-content: flex-end;
+  align-items: center;
+}
+  
+.top-nav-ul {
+  list-style: none;
+  width: 200px;
+  margin-right: 150px;
+  justify-content:space-between;
+}
+  
+.instagram {
+  width: 20px;
+  height: auto;
+}
+  
+.twitter {
+  width: 20px;
+  height: auto;
+}
+  
+.link-tree {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+  
+.nav-main {
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+}
+  
+.nav-main a img {
+  height: 70px;
+  width: auto;
+}
+  
+.nav-list ul {
+  width: 500px;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: 600;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.about {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding-left: 12px;
+  padding-bottom: 20px;
+}
+
+.welcome {
+  margin: 0;
+  font-family: 'cocoGooseLight', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.about h1 {
+  font-family: 'cocogooseBold', sans-serif;
+  font-size: 70px;
+  color: #ec5242;
+  margin: 12px 0;
+}
+
+.about-info {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  max-width: 90%;
+  padding: 12px 12px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-footer {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.mail {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.subtitles {
+  color: #272a31;
+  margin: 0;
+  padding: 30px;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-image: url("../images/orangeLine.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  }
+
+.logo-section {
+  text-align: center;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  border-bottom: 1px solid #272a31;
+}
+
+.logo-section a {
+  text-decoration: none; 
+  color: #ec5242;
+}
+
+.logo {
+  border: 1px solid #272a31;
+  max-width: 85%;
+  height: auto;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  max-width: 80%;
+}
+
+.last-races {
+  text-align: center;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.before-after {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.partners {
+  background-color: #272a31;
+  padding-bottom: 30px;
+  
+}
+
+.partners h3 {
+  color: #fff;
+}
+
+.partners div {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners div img {
+  width: 40%;
+  padding-left: 30%;
+}
+
+.credits {
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.credits div img {
+  max-width: 100%;
+  padding: auto;
+}

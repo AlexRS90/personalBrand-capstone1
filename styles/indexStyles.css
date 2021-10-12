@@ -1,0 +1,267 @@
+@font-face {
+  font-family: cocogooseBold;
+  src: url("../fonts/cocogooseBold.ttf");
+  font-family: cocoGooseLight;
+  src: url("../fonts/cocoGooseLight.ttf");
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header {
+  background: #d3d3d3;
+  height: 100px;
+}
+
+.burger img {
+  /* display: none; */
+  width: 35px;
+  height: auto;
+  margin: 20px;
+}
+
+.nav-menu {
+  display: none;
+  width: 100%;
+  height: 100px;
+}
+
+.top-first {
+  width: 100%;
+  height: 35px;
+  background-color: #272a31;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-nav-ul {
+  list-style: none;
+  width: 200px;
+  margin-right: 150px;
+  justify-content:space-between;
+}
+
+.instagram {
+  width: 20px;
+  height: auto;
+}
+
+.twitter {
+  width: 20px;
+  height: auto;
+}
+
+.link-tree {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-main {
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+}
+
+.nav-main a img {
+  height: 70px;
+  width: auto;
+}
+
+.nav-list ul {
+  width: 500px;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: 600;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.introduction {
+    background-image: url("../images/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-color: #d3d3d3;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.welcome {
+  margin: 0;
+  font-family: 'cocoGooseLight', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.introduction h1 {
+  font-family: 'cocogooseBold', sans-serif;
+  font-size: 70px;
+  color: #ec5242;
+  margin: 12px 0;
+}
+
+.quote {
+  border: 2px solid #fff;
+  max-width: 90%;
+  background-color: #d3d3d3;
+  padding: 12px 12px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  line-height: 30px;
+}
+
+.introduction h2 {
+  font-family: 'cocogooseBold', sans-serif;
+  font-size: 30px;
+  color: #272a31;
+  margin-bottom: 0;
+}
+
+.p-world {
+  font-family: 'cocogooseLight', sans-serif;
+  font-size: 20px;
+  color: #272a31;
+  margin-top: 12px;
+}
+
+.marathon-section {
+  background-color: #272a31;
+  background-image: url("../images/trianglePattern.png");
+  background-size: auto;
+  height: auto;
+  padding-bottom: 50px;
+  width: auto;
+}
+
+.subtitles {
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-image: url("../images/orangeLine.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.marathon-majors {
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: auto;
+  gap:10px;
+  align-items: center;
+}
+
+.marathon-majors div {
+  height: auto;
+}
+
+.marathon-info {
+  background-color: rgba(128, 128, 128, 0.3);
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+  max-height: auto;
+  align-items: center;
+}
+
+.marathon-info img {
+  max-width: 100px;
+  height: auto;
+}
+
+.city {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  flex-grow: 1;
+  flex-basis: 100px;
+  padding-left: 10px;
+}
+
+.slogan {
+  font-family: 'Lato', sans-serif;
+  font-size: auto;
+  line-height: 30px;
+  flex-basis: 40%;
+  color: #fff;
+}
+
+.see-more {
+  display: none;
+  text-align: center;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.marathon-button {
+  margin-top: 30px;
+}
+
+.primary-btn {
+  background-color: #ec5242;
+  padding: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+}
+
+.highlights-section h3 {
+  color: #272a31;
+}
+
+.races {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.dinamically {
+  margin-bottom: 15px;
+}
+
+.dinamically img {
+  width: 50%;
+}
+
+.cards-info {
+  flex-direction: column;
+  align-content: flex-start;
+  padding-left: 10px;
+}
+
+.cards-info h4 {
+  margin-top: 25px;
+}
+
+.highlight-button {
+  width: 90%;
+  height: 50px;
+  margin: 5px;
+  background-color: #fff;
+  font-family: 'cocoGooseLight', sans-serif;
+  color: #272a31;
+  background-image: url("../images/orangeArrow.png");
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position-x: 62%;
+  background-position-y: center;
+  border: 1px solid #272a31;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: none;
+}
