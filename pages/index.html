@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="" class="burger"><img src="../images/burgerButton.png" alt="Button Menu"></a>
+        <a href="#" class="burger"><img src="../images/burgerButton.png" alt="Button Menu"></a>
         <div class="nav-menu">
             <div class="top-first d-flex">
                 <ul class="top-nav-ul d-flex">
@@ -30,17 +30,17 @@
             </div>
             <div class="top-second">
                 <div class="nav-main d-flex">
-                    <a href="#">
+                    <a href="../pages/index.html">
                         <img src="../images/rasaLogo.png" alt="RasaRunning Logo">
                     </a>
                     <div class="nav-list">
                         <ul class="d-flex">
-                            <li>About</li>
+                            <li class="nav-list-about"><a href="../pages/about.html">About</a></li>
                             <li>Races</li>
                             <li>Blog</li>
                             <li>Sponsors</li>
                             <li>News</li>
-                            <li>Majors</li>
+                            <li class="nav-list-major">Majors</li>
                         </ul>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
             </div>
             <a href="#" class="see-more"><p>MORE MARATHONS IN THE WORLD</p></a>
         </div>
-        <div class="highlights-section">
+        <div class="highlights-section" id="races">
             <h3 class="subtitles">Highlight Races</h3>
             <div class="races d-flex">
                 <div class="dinamically d-flex">
@@ -126,17 +126,25 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="sponsors">
-            <h3>SPONSORS</h3>
-            <ul class="d-flex">
+        <div class="sponsors" id="sponsors">
+            <h3 class="subtitles">SPONSORS</h3>
+            <ul class="d-flex sponsors-list">
                 <li>
-                    <a href="#"><img src="/images/wolvesCrewLogo.png" alt="Wolves Crew logo"></a>
+                    <a href="https://www.instagram.com/wolvescrew_cdmx/" target="_blank" rel="noopener">
+                        <img src="../images/wolvesCrewLogo.png" alt="Wolves Crew logo">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="#" alt="Microverse"></a>
+                    <img class="change-color" src="../images/logoipsum-logo-1.svg" alt="Logo dumy 1">
                 </li>
                 <li>
-                    <p>My Family</p>
+                    <img class="change-color"src="../images/logoipsum-logo-2.svg" alt="Logo dumy 2">
+                </li>
+                <li>
+                    <img src="../images/logoipsum-logo-3.svg" alt="Logo dumy 3">
+                </li>
+                <li>
+                    <img src="../images/logoipsum-logo-4.svg" alt="Logo dumy 4">
                 </li>
             </ul>
         </div>
@@ -144,5 +152,16 @@
             <img src="/images/bottomWhite.png" alt="Original design credits.">
         </div>
     </footer>
+    <div id="mobile-menu" class="menu-hidden">
+        <ul>
+            <li class="menu-item"><a href="../pages/about.html">About</a></li>
+            <li class="menu-item"><a href="#races">Races</a></li>
+            <li class="menu-item"> <a href="#sponsors">Sponsors</a></li>
+        </ul>
+        <button class="burger">
+            <img src="../images/closeButton.png" alt="Close menu">
+        </button>
+    </div>
+    <script src="../javascript/indexEvents.js"></script>
 </body>
 </html>

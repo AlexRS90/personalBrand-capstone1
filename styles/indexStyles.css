@@ -5,6 +5,10 @@
   src: url("../fonts/cocoGooseLight.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .d-flex {
   display: flex;
 }
@@ -15,7 +19,6 @@
 }
 
 .burger img {
-  /* display: none; */
   width: 35px;
   height: auto;
   margin: 20px;
@@ -23,67 +26,12 @@
 
 .nav-menu {
   display: none;
-  width: 100%;
-  height: 100px;
-}
-
-.top-first {
-  width: 100%;
-  height: 35px;
-  background-color: #272a31;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.top-nav-ul {
-  list-style: none;
-  width: 200px;
-  margin-right: 150px;
-  justify-content:space-between;
-}
-
-.instagram {
-  width: 20px;
-  height: auto;
-}
-
-.twitter {
-  width: 20px;
-  height: auto;
-}
-
-.link-tree {
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-main {
-  justify-content: space-between;
-  margin-left: 150px;
-  margin-right: 150px;
-  align-items: center;
-}
-
-.nav-main a img {
-  height: 70px;
-  width: auto;
-}
-
-.nav-list ul {
-  width: 500px;
-  list-style: none;
-  font-family: 'Lato', sans-serif;
-  color: #272a31;
-  font-weight: 600;
-  padding-left: 0;
-  justify-content: space-between;
 }
 
 .introduction {
-    background-image: url("../images/backgroundImage.png");
+    background-image: url("../images/backgroundImage2.png");
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-size: cover;
     background-color: #d3d3d3;
     height: auto;
     padding-left: 25px;
@@ -102,8 +50,11 @@
 .introduction h1 {
   font-family: 'cocogooseBold', sans-serif;
   font-size: 70px;
-  color: #ec5242;
+  color: transparent;
   margin: 12px 0;
+  background-image: url('../images/redBackground.jpeg');
+  background-size: cover;
+  -webkit-background-clip: text;
 }
 
 .quote {
@@ -121,6 +72,7 @@
   font-size: 30px;
   color: #272a31;
   margin-bottom: 0;
+  text-shadow: 0 0 5px #fff;
 }
 
 .p-world {
@@ -128,12 +80,13 @@
   font-size: 20px;
   color: #272a31;
   margin-top: 12px;
+  text-shadow: 0 0 5px #fff;
 }
 
 .marathon-section {
   background-color: #272a31;
   background-image: url("../images/trianglePattern.png");
-  background-size: auto;
+  background-size: cover;
   height: auto;
   padding-bottom: 50px;
   width: auto;
@@ -157,7 +110,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-height: auto;
-  gap:10px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -166,7 +119,7 @@
 }
 
 .marathon-info {
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: rgba(128, 128, 128, 0.5);
   justify-content: space-between;
   padding: 20px;
   width: 80%;
@@ -177,12 +130,14 @@
 .marathon-info img {
   max-width: 100px;
   height: auto;
+  background-color: #d3d3d3;
+  padding: 10px;
 }
 
 .city {
   color: #ec5242;
   font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
   flex-grow: 1;
   flex-basis: 100px;
@@ -199,10 +154,6 @@
 
 .see-more {
   display: none;
-  text-align: center;
-  color: #fff;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
 }
 
 .marathon-button {
@@ -264,4 +215,249 @@
 
 .footer {
   display: none;
+}
+
+.sponsors h3{
+  color: #d3d3d3;
+}
+
+.sponsors {
+  background-color: #272a31;
+  padding-bottom: 30px;
+}
+
+.sponsors-list {
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 50%;
+}
+
+.sponsors-list li a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sponsors-list li {
+  flex-basis: 210px;
+  max-width: 33%;
+}
+
+#mobile-menu {
+  background-color: #d3d3d3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 108px 0;
+}
+
+#mobile-menu ul {
+  list-style: none;
+  padding: 0 28px;
+  margin: 0;
+}
+
+#mobile-menu button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 52px;
+  right: 38px;
+}
+
+#mobile-menu button img {
+  width: 35px;
+  height: auto;
+}
+
+.menu-item {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'cocogooseLight', sans-serif;
+  border-bottom: 1px solid #ec5242;
+  padding: 15px;
+  margin-top: 14px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.menu-hidden {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 200px;
+  }
+
+  .burger img {
+    display: none;
+  }
+        
+  .nav-menu {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+        
+  .top-first {
+    width: 100%;
+    height: 60px;
+    background-color: #272a31;
+    justify-content: flex-end;
+    align-content: center;
+  }
+        
+  .top-nav-ul {
+    list-style: none;
+    width: 250px;
+    margin-right: 150px;
+    justify-content:space-between;
+  }
+        
+  .instagram {
+    width: 35px;
+    height: auto;
+  }
+        
+  .twitter {
+    width: 35px;
+    height: auto;
+  }
+        
+  .link-tree {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .top-second {
+    height: 150px;
+    background-color: #fff;
+  }
+        
+  .nav-main {
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+  }
+
+  .nav-main a {
+    flex-basis: 150px;
+    flex-shrink: 2;
+    flex-grow: 3;
+  }
+        
+  .nav-main a img {
+    height: 150px;
+    width: auto;
+  }
+
+  .nav-list {
+    flex-basis: 500px;
+    flex-grow: 5;
+  }
+        
+  .nav-list ul {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    font-weight: 600;
+    padding-left: 0;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  .nav-list-major {
+    color: #ec5242;
+    padding: 10px 15px;
+    border: 3px solid #ec5242;
+  }
+
+  .nav-list-about a {
+    color: #ec5242;
+    text-decoration: none;
+  }
+
+  .introduction {
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+
+  .quote {
+    max-width: 45%;
+  }
+
+  .marathon-majors {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .marathon-info {
+    flex-direction: column;
+    width: 13%;
+  }
+
+  .marathon-info img {
+    flex-basis: content;
+    flex-grow: 10;
+  }
+
+  .city {
+    flex-basis: content;
+  }
+
+  .slogan {
+    line-height: 20px;
+  }
+
+  .marathon-info:hover {
+    border: 3px solid snow;
+  }
+
+  .see-more {
+    display: block;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+  }
+
+  .marathon-button {
+    display: none;
+  }
+
+  .highlight-button {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .highlights-section {
+    padding-bottom: 30px;
+  }
+
+  .races {
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
 }
