@@ -159,7 +159,7 @@ html, body {
 }
 
 .after-race {
-  background: rgba(236, 82, 66, 0.8) url("../images/utmxThumbnail.JPG");
+  background: rgba(236, 82, 66, 0.8) url("../images/utmxThumbnail.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
