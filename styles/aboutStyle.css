@@ -5,32 +5,33 @@
   src: url("../fonts/cocoGooseLight.ttf");
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-  
+
 .d-flex {
   display: flex;
 }
-  
+
 .header {
   background: #d3d3d3;
   height: 100px;
 }
-  
+
 .burger img {
   width: 35px;
   height: auto;
   margin: 20px;
-  }
-  
+}
+
 .nav-menu {
   display: none;
 }
-  
+
 .about {
   background-color: #d3d3d3;
   text-align: center;
@@ -94,7 +95,7 @@ html, body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
-  }
+}
 
 .logo-section {
   text-align: center;
@@ -105,7 +106,7 @@ html, body {
 }
 
 .logo-section a {
-  text-decoration: none; 
+  text-decoration: none;
   color: #ec5242;
 }
 
@@ -168,7 +169,7 @@ html, body {
 
 .partners {
   background-color: #272a31;
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
 }
 
 .partners h3 {
@@ -252,13 +253,13 @@ html, body {
   .burger img {
     display: none;
   }
-        
+
   .nav-menu {
     display: block;
     width: 100%;
     height: 200px;
   }
-        
+
   .top-first {
     width: 100%;
     height: 60px;
@@ -266,24 +267,24 @@ html, body {
     justify-content: flex-end;
     align-content: center;
   }
-        
+
   .top-nav-ul {
     list-style: none;
     width: 250px;
     margin-right: 150px;
-    justify-content:space-between;
+    justify-content: space-between;
   }
-        
+
   .instagram {
     width: 35px;
     height: auto;
   }
-        
+
   .twitter {
     width: 35px;
     height: auto;
   }
-        
+
   .link-tree {
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -295,7 +296,7 @@ html, body {
     height: 150px;
     background-color: #fff;
   }
-        
+
   .nav-main {
     justify-content: space-between;
     margin-left: 150px;
@@ -308,7 +309,7 @@ html, body {
     flex-basis: 150px;
     flex-shrink: 2;
   }
-        
+
   .nav-main a img {
     height: 150px;
     width: auto;
@@ -318,7 +319,7 @@ html, body {
     flex-basis: 500px;
     flex-grow: 5;
   }
-        
+
   .nav-list ul {
     list-style: none;
     font-family: 'Lato', sans-serif;

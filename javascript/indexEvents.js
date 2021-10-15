@@ -55,8 +55,8 @@ races.forEach((raceInfo) => {
   index += 1;
 });
 document.querySelector('.races').innerHTML += cards;
-document.querySelector('.races').innerHTML += `<button class="highlight-button-less">LESS</button>`;
-document.querySelector('.races').innerHTML += `<button class="highlight-button">MORE</button>`;
+document.querySelector('.races').innerHTML += '<button class="highlight-button-less">LESS</button>';
+document.querySelector('.races').innerHTML += '<button class="highlight-button">MORE</button>';
 
 const mobileBurger = document.querySelectorAll('.burger');
 const mobileMenu = document.querySelector('#mobile-menu');

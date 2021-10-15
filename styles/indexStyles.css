@@ -7,7 +7,8 @@
   src: url("../fonts/CocogooseItalic.ttf");
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -34,14 +35,14 @@ html, body {
 }
 
 .introduction {
-    background-image: url("../images/backgroundImage2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #d3d3d3;
-    height: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
+  background-image: url("../images/backgroundImage2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d3d3d3;
+  height: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 .welcome {
@@ -114,7 +115,7 @@ html, body {
 .marathon-majors {
   flex-direction: column;
   justify-content: space-between;
-  max-height: auto;
+  max-height: 100%;
   gap: 10px;
   align-items: center;
 }
@@ -128,7 +129,7 @@ html, body {
   justify-content: space-between;
   padding: 20px;
   width: 80%;
-  max-height: auto;
+  max-height: 100%;
   align-items: center;
 }
 
@@ -151,7 +152,7 @@ html, body {
 
 .slogan {
   font-family: 'Lato', sans-serif;
-  font-size: auto;
+  font-size: 100%;
   line-height: 30px;
   flex-basis: 40%;
   color: #fff;
@@ -263,7 +264,7 @@ html, body {
   margin-bottom: 20px;
 }
 
-.sponsors h3{
+.sponsors h3 {
   color: #d3d3d3;
 }
 
@@ -345,13 +346,13 @@ html, body {
   .burger img {
     display: none;
   }
-        
+
   .nav-menu {
     display: block;
     width: 100%;
     height: 200px;
   }
-        
+
   .top-first {
     width: 100%;
     height: 60px;
@@ -359,24 +360,24 @@ html, body {
     justify-content: flex-end;
     align-content: center;
   }
-        
+
   .top-nav-ul {
     list-style: none;
     width: 250px;
     margin-right: 150px;
-    justify-content:space-between;
+    justify-content: space-between;
   }
-        
+
   .instagram {
     width: 35px;
     height: auto;
   }
-        
+
   .twitter {
     width: 35px;
     height: auto;
   }
-        
+
   .link-tree {
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -388,7 +389,7 @@ html, body {
     height: 150px;
     background-color: #fff;
   }
-        
+
   .nav-main {
     justify-content: space-between;
     margin-left: 150px;
@@ -401,7 +402,12 @@ html, body {
     flex-basis: 150px;
     flex-shrink: 2;
   }
-        
+
+  .marathon-info img {
+    flex-basis: content;
+    flex-grow: 10;
+  }
+
   .nav-main a img {
     height: 150px;
     width: auto;
@@ -411,7 +417,7 @@ html, body {
     flex-basis: 500px;
     flex-grow: 5;
   }
-        
+
   .nav-list ul {
     list-style: none;
     font-family: 'Lato', sans-serif;
@@ -454,11 +460,6 @@ html, body {
   .marathon-info {
     flex-direction: column;
     width: 13%;
-  }
-
-  .marathon-info img {
-    flex-basis: content;
-    flex-grow: 10;
   }
 
   .city {
@@ -507,15 +508,15 @@ html, body {
   .hidden3 {
     display: flex;
   }
-  
+
   .hidden4 {
     display: flex;
   }
-  
+
   .hidden5 {
     display: flex;
   }
-  
+
   .hidden6 {
     display: flex;
   }
