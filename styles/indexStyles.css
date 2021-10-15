@@ -292,6 +292,47 @@ body {
   max-width: 33%;
 }
 
+.last-footer {
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.alex-logo {
+  width: 150px;
+}
+
+.alex-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.copy-text {
+  flex-direction: column;
+  font-family: 'cocogooseBold', sans-serif;
+  text-align: left;
+  color: #272a31;
+  justify-content: center;
+  width: 40%;
+}
+
+.copy-text h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.copy-text p {
+  font-size: 15px;
+}
+
+.copy-text a {
+  color: #ec5242;
+  text-decoration: none;
+}
+
 #mobile-menu {
   background-color: #d3d3d3;
   position: fixed;
@@ -503,6 +544,10 @@ body {
     margin-top: 20px;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .dinamically {
+    flex-basis: 45%;
   }
 
   .hidden3 {
