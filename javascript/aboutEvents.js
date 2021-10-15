@@ -3,7 +3,7 @@ const mobileMenu = document.querySelector('#mobile-menu');
 const menuItem = document.querySelectorAll('.menu-item');
 
 function check() {
-  mobileMenu.classList.toggle('menu-hidden');
+  mobileMenu.classList.toggle('open');
   console.log("hola");
 }
   

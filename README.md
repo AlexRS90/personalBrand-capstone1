@@ -2,9 +2,9 @@
 
 > This is my project for capstone 1.
 
-![screenshot](../images/ssDesktop.png)
+![screenshot](/images/ssDesktop.png)
 
-![screenshot](../images/ssMobile.png)
+![screenshot](/images/ssMobile.png)
 
 - For this project I did all the HTML skelleton for main page.
 - After that I did the CSS style sheet for the main page.
@@ -23,7 +23,7 @@
 
 ## Live Demo 🖥️ 💻 📱
 
-
+https://alexrs90.github.io/personalBrand-capstone1/
 
 ## Author 👤
 
@@ -42,6 +42,11 @@ Feel free to check the [issues page](https://github.com/AlexRS90/personalBrand-c
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Original Design by:
+
+👤 Cindy Shin
+  Follow her and take a look of all her incredible designs in [Cindy's Behance profile](https://www.behance.net/adagio07).
 
 ## Acknowledgments
 

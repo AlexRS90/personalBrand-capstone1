@@ -236,7 +236,11 @@ html, body {
 }
 
 .menu-hidden {
-  display: none !important;
+  display: none;
+}
+
+.open {
+  display: block;
 }
 
 @media (min-width: 768px) {
