@@ -1,8 +1,8 @@
 @font-face {
-    font-family: cocogooseBold;
-    src: url("../fonts/cocogooseBold.ttf");
-    font-family: cocoGooseLight;
-    src: url("../fonts/cocoGooseLight.ttf");
+  font-family: cocogooseBold;
+  src: url("../fonts/cocogooseBold.ttf");
+  font-family: cocoGooseLight;
+  src: url("../fonts/cocoGooseLight.ttf");
 }
 
 html, body {
@@ -159,7 +159,7 @@ html, body {
 }
 
 .after-race {
-  background: rgba(236, 82, 66, 0.8) url("../images/utmxThumbnail.jpg");
+  background: rgba(236, 82, 66, 0.8) url("../images/utmxThumbnail.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
