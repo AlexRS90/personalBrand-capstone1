@@ -5,9 +5,10 @@
     src: url("../fonts/cocoGooseLight.ttf");
 }
 
-body {
- min-height: 100vh;
- min-width: 100vh;
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
   
 .d-flex {
@@ -192,23 +193,50 @@ body {
   max-width: 33%;
 }
 
-.change-color {
-  color: #d3d3d3;
+#mobile-menu {
+  background-color: #d3d3d3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 108px 0;
 }
 
-.credits {
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+#mobile-menu ul {
+  list-style: none;
+  padding: 0 28px;
+  margin: 0;
 }
 
-.credits div img {
-  max-width: 100%;
-  padding: auto;
+#mobile-menu button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 52px;
+  right: 38px;
 }
 
-.credits-desktop {
-  display: none;
+#mobile-menu button img {
+  width: 35px;
+  height: auto;
+}
+
+.menu-item {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'cocogooseLight', sans-serif;
+  border-bottom: 1px solid #ec5242;
+  padding: 15px;
+  margin-top: 14px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.menu-hidden {
+  display: none !important;
 }
 
 @media (min-width: 768px) {
@@ -268,12 +296,12 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
+    gap: 18%;
   }
 
   .nav-main a {
     flex-basis: 150px;
     flex-shrink: 2;
-    flex-grow: 3;
   }
         
   .nav-main a img {
@@ -359,19 +387,5 @@ body {
   .after-race:hover {
     background-blend-mode: unset;
     color: transparent;
-  }
-
-  .partners {
-    display: none;
-  }
-
-  .credits {
-      display: none;
-  }
-
-  .credits-desktop {
-    display: block;
-    background-color: #272a31;
-    align-content: center;
   }
 }

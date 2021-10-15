@@ -3,6 +3,14 @@
   src: url("../fonts/cocogooseBold.ttf");
   font-family: cocoGooseLight;
   src: url("../fonts/cocoGooseLight.ttf");
+  font-family: CocogooseItalic;
+  src: url("../fonts/CocogooseItalic.ttf");
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -194,7 +202,57 @@ html {
 }
 
 .cards-info h4 {
-  margin-top: 25px;
+  margin-top: 15%;
+  font-size: 20px;
+  font-family: 'cocogooseBold', sans-serif;
+  margin-bottom: 0;
+}
+
+.race-slogan {
+  color: #ec5242;
+  font-family: 'CocogooseItalic', sans-serif;
+  background-image: url("../images/linegray.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  background-size:50%;
+}
+
+.race-info {
+  font-family: 'cocogooseLight', sans-serif;
+}
+
+.hidden3 {
+  display: none;
+}
+
+.hidden4 {
+  display: none;
+}
+
+.hidden5 {
+  display: none;
+}
+
+.hidden6 {
+  display: none;
+}
+
+.highlight-button-less {
+  width: 90%;
+  height: 50px;
+  margin: 5px;
+  background-color: #fff;
+  font-family: 'cocoGooseLight', sans-serif;
+  color: #272a31;
+  background-image: url("../images/orangeArrowUp.png");
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position-x: 62%;
+  background-position-y: center;
+  border: 1px solid #272a31;
+  margin-bottom: 20px;
+  display: none;
 }
 
 .highlight-button {
@@ -211,10 +269,6 @@ html {
   background-position-y: center;
   border: 1px solid #272a31;
   margin-bottom: 20px;
-}
-
-.footer {
-  display: none;
 }
 
 .sponsors h3{
@@ -348,12 +402,12 @@ html {
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
+    gap: 18%;
   }
 
   .nav-main a {
     flex-basis: 150px;
     flex-shrink: 2;
-    flex-grow: 3;
   }
         
   .nav-main a img {
@@ -385,7 +439,7 @@ html {
   }
 
   .nav-list-about a {
-    color: #ec5242;
+    color: #272a31;
     text-decoration: none;
   }
 
@@ -401,7 +455,7 @@ html {
   .marathon-majors {
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
   }
 
@@ -446,18 +500,31 @@ html {
     display: none;
   }
 
-  .footer {
-    display: block;
-  }
-
   .highlights-section {
     padding-bottom: 30px;
   }
 
   .races {
+    width: 100%;
+    flex-wrap: wrap;
     margin-top: 20px;
     flex-direction: row;
     justify-content: center;
   }
+
+  .hidden3 {
+    display: flex;
+  }
   
+  .hidden4 {
+    display: flex;
+  }
+  
+  .hidden5 {
+    display: flex;
+  }
+  
+  .hidden6 {
+    display: flex;
+  }
 }
