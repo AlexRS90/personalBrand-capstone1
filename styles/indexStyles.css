@@ -282,6 +282,11 @@ body {
   min-width: 50%;
 }
 
+.alex-logo img {
+  width: 150px;
+  height: auto;
+}
+
 .sponsors-list li a img {
   max-width: 100%;
   height: auto;
@@ -303,11 +308,6 @@ body {
 
 .alex-logo {
   width: 150px;
-}
-
-.alex-logo img {
-  width: 150px;
-  height: auto;
 }
 
 .copy-text {
