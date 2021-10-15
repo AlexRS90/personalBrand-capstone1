@@ -3,5 +3,6 @@
 *.int
 *.lk
 *.zip
+*.DS_Store
 # .gitignore
 node_modules/

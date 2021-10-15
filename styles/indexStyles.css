@@ -1,0 +1,568 @@
+@font-face {
+  font-family: cocogooseBold;
+  src: url("../fonts/cocogooseBold.ttf");
+  font-family: cocoGooseLight;
+  src: url("../fonts/cocoGooseLight.ttf");
+  font-family: CocogooseItalic;
+  src: url("../fonts/CocogooseItalic.ttf");
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header {
+  background: #d3d3d3;
+  height: 100px;
+}
+
+.burger img {
+  width: 35px;
+  height: auto;
+  margin: 20px;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.introduction {
+  background-image: url("../images/backgroundImage2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d3d3d3;
+  height: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.welcome {
+  margin: 0;
+  font-family: 'cocoGooseLight', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.introduction h1 {
+  font-family: 'cocogooseBold', sans-serif;
+  font-size: 70px;
+  color: transparent;
+  margin: 12px 0;
+  background-image: url('../images/redBackground.jpeg');
+  background-size: cover;
+  -webkit-background-clip: text;
+}
+
+.quote {
+  border: 2px solid #fff;
+  max-width: 90%;
+  background-color: #d3d3d3;
+  padding: 12px 12px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  line-height: 30px;
+}
+
+.introduction h2 {
+  font-family: 'cocogooseBold', sans-serif;
+  font-size: 30px;
+  color: #272a31;
+  margin-bottom: 0;
+  text-shadow: 0 0 5px #fff;
+}
+
+.p-world {
+  font-family: 'cocogooseLight', sans-serif;
+  font-size: 20px;
+  color: #272a31;
+  margin-top: 12px;
+  text-shadow: 0 0 5px #fff;
+}
+
+.marathon-section {
+  background-color: #272a31;
+  background-image: url("../images/trianglePattern.png");
+  background-size: cover;
+  height: auto;
+  padding-bottom: 50px;
+  width: auto;
+}
+
+.subtitles {
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-image: url("../images/orangeLine.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.marathon-majors {
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100%;
+  gap: 10px;
+  align-items: center;
+}
+
+.marathon-majors div {
+  height: auto;
+}
+
+.marathon-info {
+  background-color: rgba(128, 128, 128, 0.5);
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+  max-height: 100%;
+  align-items: center;
+}
+
+.marathon-info img {
+  max-width: 100px;
+  height: auto;
+  background-color: #d3d3d3;
+  padding: 10px;
+}
+
+.city {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  flex-grow: 1;
+  flex-basis: 100px;
+  padding-left: 10px;
+}
+
+.slogan {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  line-height: 30px;
+  flex-basis: 40%;
+  color: #fff;
+}
+
+.see-more {
+  display: none;
+}
+
+.marathon-button {
+  margin-top: 30px;
+}
+
+.primary-btn {
+  background-color: #ec5242;
+  padding: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+}
+
+.highlights-section h3 {
+  color: #272a31;
+}
+
+.races {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.dinamically {
+  margin-bottom: 15px;
+}
+
+.dinamically img {
+  width: 50%;
+}
+
+.cards-info {
+  flex-direction: column;
+  align-content: flex-start;
+  padding-left: 10px;
+}
+
+.cards-info h4 {
+  margin-top: 15%;
+  font-size: 20px;
+  font-family: 'cocogooseBold', sans-serif;
+  margin-bottom: 0;
+}
+
+.race-slogan {
+  color: #ec5242;
+  font-family: 'CocogooseItalic', sans-serif;
+}
+
+.race-info {
+  font-family: 'cocogooseLight', sans-serif;
+}
+
+.hidden3 {
+  display: none;
+}
+
+.hidden4 {
+  display: none;
+}
+
+.hidden5 {
+  display: none;
+}
+
+.hidden6 {
+  display: none;
+}
+
+.highlight-button-less {
+  width: 90%;
+  height: 50px;
+  margin: 5px;
+  background-color: #fff;
+  font-family: 'cocoGooseLight', sans-serif;
+  color: #272a31;
+  background-image: url("../images/orangeArrowUp.png");
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position-x: 62%;
+  background-position-y: center;
+  border: 1px solid #272a31;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.highlight-button {
+  width: 90%;
+  height: 50px;
+  margin: 5px;
+  background-color: #fff;
+  font-family: 'cocoGooseLight', sans-serif;
+  color: #272a31;
+  background-image: url("../images/orangeArrow.png");
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position-x: 62%;
+  background-position-y: center;
+  border: 1px solid #272a31;
+  margin-bottom: 20px;
+}
+
+.sponsors h3 {
+  color: #d3d3d3;
+}
+
+.sponsors {
+  background-color: #272a31;
+  padding-bottom: 30px;
+}
+
+.sponsors-list {
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 50%;
+}
+
+.alex-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.sponsors-list li a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sponsors-list li {
+  flex-basis: 210px;
+  max-width: 33%;
+}
+
+.last-footer {
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.alex-logo {
+  width: 150px;
+}
+
+.copy-text {
+  flex-direction: column;
+  font-family: 'cocogooseBold', sans-serif;
+  text-align: left;
+  color: #272a31;
+  justify-content: center;
+  width: 40%;
+}
+
+.copy-text h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.copy-text p {
+  font-size: 15px;
+}
+
+.copy-text a {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+#mobile-menu {
+  background-color: #d3d3d3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 108px 0;
+}
+
+#mobile-menu ul {
+  list-style: none;
+  padding: 0 28px;
+  margin: 0;
+}
+
+#mobile-menu button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 52px;
+  right: 38px;
+}
+
+#mobile-menu button img {
+  width: 35px;
+  height: auto;
+}
+
+.menu-item {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'cocogooseLight', sans-serif;
+  border-bottom: 1px solid #ec5242;
+  padding: 15px;
+  margin-top: 14px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.menu-hidden {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 200px;
+  }
+
+  .burger img {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+
+  .top-first {
+    width: 100%;
+    height: 60px;
+    background-color: #272a31;
+    justify-content: flex-end;
+    align-content: center;
+  }
+
+  .top-nav-ul {
+    list-style: none;
+    width: 250px;
+    margin-right: 150px;
+    justify-content: space-between;
+  }
+
+  .instagram {
+    width: 35px;
+    height: auto;
+  }
+
+  .twitter {
+    width: 35px;
+    height: auto;
+  }
+
+  .link-tree {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .top-second {
+    height: 150px;
+    background-color: #fff;
+  }
+
+  .nav-main {
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    gap: 18%;
+  }
+
+  .nav-main a {
+    flex-basis: 150px;
+    flex-shrink: 2;
+  }
+
+  .marathon-info img {
+    flex-basis: content;
+    flex-grow: 10;
+  }
+
+  .nav-main a img {
+    height: 150px;
+    width: auto;
+  }
+
+  .nav-list {
+    flex-basis: 500px;
+    flex-grow: 5;
+  }
+
+  .nav-list ul {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    font-weight: 600;
+    padding-left: 0;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  .nav-list-major {
+    color: #ec5242;
+    padding: 10px 15px;
+    border: 3px solid #ec5242;
+  }
+
+  .nav-list-about a {
+    color: #272a31;
+    text-decoration: none;
+  }
+
+  .introduction {
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+
+  .quote {
+    max-width: 45%;
+  }
+
+  .marathon-majors {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .marathon-info {
+    flex-direction: column;
+    width: 13%;
+  }
+
+  .city {
+    flex-basis: content;
+  }
+
+  .slogan {
+    line-height: 20px;
+  }
+
+  .marathon-info:hover {
+    border: 3px solid snow;
+  }
+
+  .see-more {
+    display: block;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+  }
+
+  .marathon-button {
+    display: none;
+  }
+
+  .highlight-button {
+    display: none;
+  }
+
+  .highlights-section {
+    padding-bottom: 30px;
+  }
+
+  .races {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .dinamically {
+    flex-basis: 45%;
+  }
+
+  .hidden3 {
+    display: flex;
+  }
+
+  .hidden4 {
+    display: flex;
+  }
+
+  .hidden5 {
+    display: flex;
+  }
+
+  .hidden6 {
+    display: flex;
+  }
+}
