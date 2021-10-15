@@ -11,9 +11,6 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -211,11 +208,6 @@ html {
 .race-slogan {
   color: #ec5242;
   font-family: 'CocogooseItalic', sans-serif;
-  background-image: url("../images/linegray.png");
-  background-repeat: no-repeat;
-  background-position-x: left;
-  background-position-y: bottom;
-  background-size:50%;
 }
 
 .race-info {
